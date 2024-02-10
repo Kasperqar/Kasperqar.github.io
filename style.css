@@ -1,0 +1,266 @@
+.blue-square {
+    width: 1300px;
+    height: 170px;
+    background-color: rgb(53, 193, 224);
+    margin-top: 100px;
+    margin-left: 500px;
+    position: absolute; 
+}
+.blue-line {
+    width: 1300px;
+    height: 3px;
+    background-color: rgb(53, 193, 224);
+    margin-top: 660px;
+    margin-left: 500px;
+    position: absolute; 
+}
+.blue-line2 {
+    width: 1300px;
+    height: 3px;
+    background-color: rgb(53, 193, 224);
+    margin-top: 960px;
+    margin-left: 500px;
+    position: absolute; 
+}
+.blue-line3 {
+    width: 1300px;
+    height: 3px;
+    background-color: rgb(53, 193, 224);
+    margin-top: 1560px;
+    margin-left: 500px;
+    position: absolute; 
+}
+.dark-square {
+    width: 500px;
+    height: 2200px;
+    background-color: rgb(31, 29, 26);
+    margin-left: auto;
+    position: absolute; 
+  }
+
+h1 {
+    position: absolute; 
+    font-size: 90px;
+    margin-top: 130px;
+    margin-left: 700px;  
+    font-family: 'Arial Narrow', sans-serif; 
+    color: #333; 
+    z-index: 2;
+    white-space: nowrap;
+}
+
+p1 {
+    position: absolute; 
+    font-size: 30px;
+    margin-top: 230px;
+    margin-left: 700px;  
+    font-family: 'Arial Narrow', sans-serif; 
+    color: #333; 
+    z-index: 2;
+    white-space: nowrap;
+}
+
+p2 {
+    position: absolute; 
+    font-size: 35px;
+    margin-top: 280px;
+    margin-left: 700px;  
+    margin-right: 200px;
+    font-family: 'Arial Narrow', sans-serif; 
+    color: #333; 
+    z-index: 2;
+    white-space: nowrap;
+}
+
+  .ja{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 100px;
+    box-shadow: 0 0 10px rgba(128, 0, 128, 0.7);
+    transition: transform 0.3s ease-in-out;
+        white-space: nowrap;
+
+}
+    .ja:hover{
+         transform: scale(1.2);
+    }
+
+    .edukacja {
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 80px;
+    font-size: 40px;
+    font-family: 'Arial Narrow', sans-serif;
+    color: #d1cfcf;
+    z-index: 2;
+    white-space: nowrap;
+
+  }
+  .szkola {
+    position: absolute;
+    margin-top: 750px;   
+    margin-left: 60px;
+    font-size: 25px;
+    font-family: 'Arial Narrow', sans-serif;
+    color: #d1cfcf;
+    z-index: 2;
+    white-space: nowrap;
+
+  }
+  .jezyk {
+    position: absolute;
+    margin-top: 850px;   
+    margin-left: 80px;
+    font-size: 40px;
+    font-family: 'Arial Narrow', sans-serif;
+    color: #d1cfcf;
+    z-index: 2;
+    white-space: nowrap;
+
+  }
+  .jezyki {
+    position: absolute;
+    margin-top: 900px;   
+    margin-left: 60px;
+    font-size: 25px;
+    font-family: 'Arial Narrow', sans-serif;
+    color: #d1cfcf;
+    z-index: 2;
+    white-space: nowrap;
+
+  }
+
+  .doswiadczenie {
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Arial Narrow', sans-serif;
+    color: #121010;
+    z-index: 2;
+    white-space: nowrap;
+    margin-top: 600px;
+    margin-left: 600px;
+  }
+
+
+
+
+  .phone,
+  .adress,
+  .linkedin,
+  .gmail,
+  .upwork {
+    position: absolute;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 55px;
+    white-space: nowrap;
+
+  }
+
+
+  .phone{
+    margin-top: 427px;
+  }
+    .adress {
+     margin-top: 473px;
+    }
+  
+  .gmail {
+    margin-top: 523px;
+  }
+
+  .upwork {
+    margin-top: 573px;
+  }
+  
+
+   
+  .phone-number,
+  .adress-opis,
+  .gmail-opis,
+  .upwork-opis 
+  {
+    position: absolute;
+    left: 90px;
+    font-size: 25px;
+    font-family: 'Arial Narrow', sans-serif;
+    color: #d1cfcf;
+    z-index: 2;
+    white-space: nowrap;
+
+  }
+
+  .phone-number{
+    margin-top: 427px;
+  }
+  .adress-opis{
+    margin-top: 473px;
+}
+  .gmail-opis{
+    margin-top: 523px;
+  }
+  .upwork-opis{
+    margin-top: 624px;
+  }
+
+
+  .qatech   {
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Arial Narrow', sans-serif;
+    color: #121010;
+    z-index: 2;
+    white-space: nowrap;
+    margin-top: 750px;
+    margin-left: 600px;
+  }
+
+  .qaspec {
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Arial Narrow', sans-serif;
+    color: #121010;
+    z-index: 2;
+    white-space: nowrap;
+    margin-top: 800px;
+    margin-left: 600px;
+  }
+  .umiejetnosci{
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Arial Narrow', sans-serif;
+    color: #121010;
+    z-index: 2;
+    white-space: nowrap;
+    margin-top: 900px;
+    margin-left: 600px;
+  }
+  
+  .skill {
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Arial Narrow', sans-serif;
+    color: #121010;
+    z-index: 2;
+    white-space: nowrap;
+    margin-top: 1000px;
+    margin-left: 600px;
+  }
+  .skill2 {
+    position: absolute;
+    font-size: 22px;
+    font-family: 'Arial Narrow', sans-serif;
+    color: #121010;
+    z-index: 2;
+    white-space: nowrap;
+    margin-top: 1200px;
+    margin-left: 520px;
+  }
+
+  
