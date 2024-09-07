@@ -79,9 +79,9 @@ ul.skills {
 }
 
 .dark-square {
-    height: 2200px; /* Wysokość można zmniejszyć, aby uniknąć zniekształceń na mniejszych ekranach */
+    height: 1800px; 
     background-color: rgb(31, 29, 26);
-    opacity: 0.8; /* Utrzymywanie widoczności tła */
+    opacity: 0.9;
 }
 
 
@@ -100,6 +100,6 @@ ul.skills {
         align-items: center;
     }
     .divider {
-        height: 2px; /* Można dostosować wysokość dividerów w responsywności */
+        height: 2px;
     }
 }
