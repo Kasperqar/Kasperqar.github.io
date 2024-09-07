@@ -84,7 +84,7 @@ ul.skills {
     opacity: 0.8; /* Utrzymywanie widoczności tła */
 }
 
-/* Responsywność */
+
 @media (max-width: 768px) {
     h1 {
         font-size: 2em;
