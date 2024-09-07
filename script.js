@@ -12,14 +12,14 @@ document.addEventListener("DOMContentLoaded", function () {
   
         image.style.filter = "grayscale(0)";
         image.style.transform = "scale(1.4)";
-        image.style.zIndex = 4; // Ustawienie wyższego indeksu z warstwy, aby zdjęcie było na wierzchu
+        image.style.zIndex = 4; // Wyższy indeks by zdjęcie było na najwyższej warstwie
       });
   
       image.addEventListener("mouseleave", function () {
         images.forEach(otherImage => {
           otherImage.style.filter = "grayscale(0)";
           otherImage.style.transform = "scale(1)";
-          otherImage.style.zIndex = 3; // Przywrócenie pierwotnego indeksu z warstwy
+          otherImage.style.zIndex = 3; // Przywrócenie do pierwszej warstwy
         });
       });
     });
